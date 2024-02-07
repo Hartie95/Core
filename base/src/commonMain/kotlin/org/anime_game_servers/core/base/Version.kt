@@ -40,6 +40,7 @@ enum class Version(val game: Game, val id:Int, val namespace:String) {
     GI_4_1_0(GI, 4100, "V4_1"),
     GI_4_2_0(GI, 4200, "V4_2"),
     GI_4_3_0(GI, 4300, "V4_3"),
+    GI_4_4_0(GI, 4400, "V4_4"),
     ;
     companion object {
         @JvmStatic
