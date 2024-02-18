@@ -1,19 +1,10 @@
-/*buildscript {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-    }
 
-    dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.70"
-    }
-}*/
-group = "org.anime_game_servers"
-version = "1.0-SNAPSHOT"
 plugins {
     id("maven-publish")
+    kotlin("multiplatform") version "1.9.22" apply false
 }
+group = "org.anime_game_servers.core"
+version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
