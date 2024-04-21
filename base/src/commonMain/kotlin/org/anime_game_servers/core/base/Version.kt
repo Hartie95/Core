@@ -3,10 +3,12 @@ package org.anime_game_servers.core.base
 import kotlin.jvm.JvmStatic
 
 import org.anime_game_servers.core.base.Game.GI
+import org.anime_game_servers.core.base.Game.HKSR
 import org.anime_game_servers.core.base.Game.NONE
 
 enum class Version(val game: Game, val id:Int, val namespace:String) {
     DEFAULT(NONE, 0,"DEFAULT"),
+
     GI_CB1(GI, 700,"VCB1"),
     GI_CB2(GI, 800,"VCB2"),
     GI_0_9_0(GI, 900,"V0_9"),
@@ -41,6 +43,22 @@ enum class Version(val game: Game, val id:Int, val namespace:String) {
     GI_4_2_0(GI, 4200, "V4_2"),
     GI_4_3_0(GI, 4300, "V4_3"),
     GI_4_4_0(GI, 4400, "V4_4"),
+    GI_4_5_0(GI, 4500, "V4_5"),
+    GI_4_6_0(GI, 4600, "V4_6"),
+
+    SR_CB1(HKSR, 600, "VCB1"),
+    SR_CB2(HKSR, 700, "VCB2"),
+    SR_CB3(HKSR, 900, "VCB3"),
+    SR_1_0_0(HKSR, 1000, "V1_0"),
+    SR_1_1_0(HKSR, 1100, "V1_1"),
+    SR_1_2_0(HKSR, 1200, "V1_2"),
+    SR_1_3_0(HKSR, 1300, "V1_3"),
+    SR_1_4_0(HKSR, 1400, "V1_4"),
+    SR_1_5_0(HKSR, 1500, "V1_5"),
+    SR_1_6_0(HKSR, 1600, "V1_6"),
+    SR_2_0_0(HKSR, 2000, "V2_0"),
+    SR_2_1_0(HKSR, 2100, "V2_1"),
+    SR_2_2_0(HKSR, 2200, "V2_2"),
     ;
     companion object {
         @JvmStatic

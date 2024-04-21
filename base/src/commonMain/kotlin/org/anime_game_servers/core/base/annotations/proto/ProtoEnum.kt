@@ -7,4 +7,4 @@ package org.anime_game_servers.core.base.annotations.proto
  */
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.SOURCE)
-annotation class ProtoEnum(val parentClass: String = "")
+annotation class ProtoEnum(val parentClass: String = "", vararg val alternativeNames: String)
