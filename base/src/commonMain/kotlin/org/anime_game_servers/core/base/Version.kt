@@ -45,6 +45,15 @@ enum class Version(val game: Game, val id:Int, val namespace:String) {
     GI_4_4_0(GI, 4400, "V4_4"),
     GI_4_5_0(GI, 4500, "V4_5"),
     GI_4_6_0(GI, 4600, "V4_6"),
+    GI_4_7_0(GI, 4700, "V4_7"),
+    GI_4_8_0(GI, 4800, "V4_8"),
+    GI_5_0_0(GI, 5000, "V5_0"),
+    GI_5_1_0(GI, 5100, "V5_1"),
+    GI_5_2_0(GI, 5200, "V5_2"),
+    GI_5_3_0(GI, 5300, "V5_3"),
+    GI_5_4_0(GI, 5400, "V5_4"),
+    GI_5_5_0(GI, 5500, "V5_5"),
+    GI_5_6_0(GI, 5600, "V5_6"),
 
     SR_CB1(HKSR, 600, "VCB1"),
     SR_CB2(HKSR, 700, "VCB2"),
@@ -59,6 +68,9 @@ enum class Version(val game: Game, val id:Int, val namespace:String) {
     SR_2_0_0(HKSR, 2000, "V2_0"),
     SR_2_1_0(HKSR, 2100, "V2_1"),
     SR_2_2_0(HKSR, 2200, "V2_2"),
+    SR_2_3_0(HKSR, 2300, "V2_3"),
+    SR_2_4_0(HKSR, 2400, "V2_4"),
+    SR_2_5_0(HKSR, 2500, "V2_5"),
     ;
     companion object {
         @JvmStatic
