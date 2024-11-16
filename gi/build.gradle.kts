@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "org.anime_game_servers.core"
-version = "0.1"
+version = "0.2"
 
 kotlin {
     jvmToolchain(17)
@@ -25,12 +25,16 @@ kotlin {
     mingwX64()
     linuxX64()
     linuxArm64()
+    macosArm64()
+    macosX64()
+    iosArm64()
+    iosX64()
 
 
     sourceSets {
         val commonMain by getting {
             dependencies{
-                api("org.anime_game_servers.core:base:0.1")
+                api(project(":base"))
             }
         }
         val commonTest by getting {
