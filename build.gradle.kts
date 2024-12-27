@@ -1,7 +1,7 @@
 
 plugins {
     id("maven-publish")
-    kotlin("multiplatform") version "2.0.21" apply false
+    kotlin("multiplatform") version "2.1.0" apply false
 }
 group = "org.anime_game_servers.core"
 version = "1.0-SNAPSHOT"
