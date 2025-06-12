@@ -14,6 +14,7 @@ kotlin {
         }
     }
     js(IR) {
+        nodejs()
         browser {
             commonWebpackConfig {
                 cssSupport {
